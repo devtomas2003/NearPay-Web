@@ -46,7 +46,7 @@ export const ActionsBox = styled.div`
 `;
 
 export const DownloadIcon = styled(GetApp)`
-fill: #FFF;
+fill: var(--white);
 width: 50px;
 height: 50px;
 `;
