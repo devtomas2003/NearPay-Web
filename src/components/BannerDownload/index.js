@@ -7,7 +7,7 @@ function BannerDownload(){
        <Container>
            <img src="../../svgs/mainPage.svg" alt="Faça download da APP" title="Faça download da APP" />
            <ActionsBox>
-           <h1>Com a APP do NEAR PAY, nunca ficou tão facil e incrivél fazer pagamentos!</h1>
+           <h1>Com a APP da NEAR PAY, nunca ficou tão facil e incrivél fazer pagamentos!</h1>
            <button>
            <DownloadIcon />
             <p>Descarregar APP</p>
