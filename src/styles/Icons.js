@@ -1,0 +1,1 @@
+export { GetApp } from 'styled-icons/material';
