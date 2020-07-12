@@ -20,6 +20,10 @@ margin-bottom:10px;
     color: var(--secundary);
     font-weight: bold;
 }
+@media (max-width: 885px){
+    margin: 0 auto;
+    justify-self: center;
+}
 `;
 
 export const Actions = styled.div`
@@ -48,5 +52,8 @@ export const Actions = styled.div`
     }
     >button:hover{
         background: var(--hoverLight);
+    }
+    @media (max-width: 885px){
+        display: none;
     }
 `;

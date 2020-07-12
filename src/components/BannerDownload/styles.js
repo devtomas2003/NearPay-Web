@@ -13,6 +13,13 @@ export const Container = styled.div`
         margin-top: 15px;
         margin-bottom: 15px;
     }
+    @media (max-width: 1108px){
+        flex-direction: column;
+        >img{
+            width: 80%;
+        }
+    }
+
 `;
 
 export const ActionsBox = styled.div`
@@ -43,10 +50,25 @@ export const ActionsBox = styled.div`
     >button:hover{
         background: var(--hoverDark);
     }
+    @media (max-width: 1108px){
+        >h1{
+            font-size: 23px;
+            text-align: center;
+        }
+        >button{
+            margin-top: 20px;
+            padding: 10px 20px;
+            align-self: center;
+        }
+    }
 `;
 
 export const DownloadIcon = styled(GetApp)`
 fill: var(--white);
 width: 50px;
 height: 50px;
+@media (max-width: 1108px){
+    width: 25px;
+    height: 25px;
+}
 `;
