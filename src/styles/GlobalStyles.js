@@ -24,7 +24,7 @@ body{
     --darkLight: #3C464C;
     --white: #FFF;
     --primary: #50CF80;
-    --secundary: #6C63FF;
+    --secundary: #7159c1;
     --hoverLight: #50cf70;
     --hoverDark: #6c63f5;
 }

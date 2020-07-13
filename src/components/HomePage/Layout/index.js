@@ -1,12 +1,12 @@
 import React from 'react';
 
-import MenuTop from '../MenuTop';
-import BannerDownload from '../BannerDownload';
-import BannerEasy from '../BannerEasy';
-import BannerEasySell from '../BannerEasySell';
-import BannerFriends from '../BannerFriends';
-import BannerDownBottom from '../BannerDownBottom';
-import CopyrightBanner from '../copyrightBanner';
+import MenuTop from '../../GeneralComponents/MenuTop';
+import BannerDownload from '../../HomePage/BannerDownload';
+import BannerEasy from '../../HomePage/BannerEasy';
+import BannerEasySell from '../../HomePage/BannerEasySell';
+import BannerFriends from '../../HomePage/BannerFriends';
+import BannerDownBottom from '../../HomePage/BannerDownBottom';
+import CopyrightBanner from '../../HomePage/copyrightBanner';
 
 import { Container, Wrapper } from './styles';
 
