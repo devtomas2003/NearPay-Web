@@ -47,6 +47,7 @@ justify-content: center;
     >p{
         margin-top: 10px;
         text-align: justify;
+        font-size: 20px;
         width: 100%;
     }
 }

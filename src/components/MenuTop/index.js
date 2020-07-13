@@ -7,7 +7,7 @@ function MenuTop(){
        <Container>
            <Header>
                 <h1>NearPay</h1>
-                <p>By IMM Telecom</p>
+                <p>By &lt;/IMM&gt; Telecom</p>
            </Header>
            <Actions>
                 <a href="https://google.pt/">Sou Vendedor</a>

@@ -23,4 +23,18 @@ export const Container = styled.div`
     >label{
         color: var(--white);
     }
+    @media (max-width: 1108px){
+        flex-direction: column;
+        >p{
+            align-self: center;
+            width: 90%;
+            text-align: center;
+        }
+        >a{
+            margin: 0;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+    }
 `;

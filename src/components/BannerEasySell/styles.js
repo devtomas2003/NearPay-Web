@@ -13,6 +13,13 @@ export const Container = styled.div`
         margin-left: 20px;
         margin-bottom: 15px;
     }
+    @media (max-width: 1108px){
+        flex-direction: column;
+        >img{
+            align-self: center;
+            width: 90%;
+        }
+    }
 `;
 
 export const Texts = styled.div`
@@ -30,5 +37,20 @@ justify-content: center;
     font-size: 30px;
     text-align: end;
     width: 60%;
+}
+@media (max-width: 1108px){
+    margin-left: 20px;
+    >h1{
+        align-self: center;
+        color: var(--primary);
+        font-size: 35px;
+        text-align: center;
+    }
+    >p{
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 20px;
+        width: 100%;
+    }
 }
 `;

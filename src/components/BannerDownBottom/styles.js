@@ -11,6 +11,11 @@ export const Container = styled.div`
         margin-bottom: 23px;
         align-self: center;
     }
+    @media (max-width: 1108px){
+        > img{
+            width: 50px;
+        }
+    }
 `;
 
 export const LoginBottom = styled.div`
@@ -28,6 +33,11 @@ export const LoginBottom = styled.div`
     }
     > button:hover{
         background: var(--hoverLight);
+    }
+    @media (max-width: 1108px){
+        > button{
+            font-size: 17px;
+        }
     }
 `;
 
@@ -48,5 +58,10 @@ export const DownloadBottom = styled.div`
     }
     > button:hover{
         border: 2px solid var(--hoverDark);
+    }
+    @media (max-width: 1108px){
+        > button{
+            font-size: 17px;
+        }
     }
 `;
