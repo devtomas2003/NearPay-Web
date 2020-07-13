@@ -14,7 +14,7 @@ export const Container = styled.div`
         margin-bottom: 15px;
     }
     @media (max-width: 1108px){
-        flex-direction: column;
+        flex-direction: column-reverse;
         >img{
             align-self: center;
             width: 90%;
